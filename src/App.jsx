@@ -38,7 +38,7 @@ const App = () => {
 
   const renderSquare = (index) => {
     return (
-      <button className='square' onClick={() => handleClick(index)}>
+      <button className='square' title='square' type='button' onClick={() => handleClick(index)}>
         
          {board[index]}
        </button>
