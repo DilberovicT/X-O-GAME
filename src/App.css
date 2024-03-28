@@ -1,9 +1,12 @@
+
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #092635;
   color: #9EC8B9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .game {
@@ -52,14 +55,16 @@ background-color: #9ec8b9;
 }
 
 button {
+  height: 55px;
   margin-top: 50px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #5C8374;
   color: rgb(241, 232, 232);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button:hover {
